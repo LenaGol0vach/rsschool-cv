@@ -1,0 +1,119 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  background-image: url(../img/nasa-goods-real_wide.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+}
+
+.cv {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #b9c9c7;
+}
+
+.header-block {
+  margin: 50px;
+  text-align: center;
+  border-style: dashed;
+  border-color: black;
+  background-color: white;
+  width: 600px;
+}
+
+.avatar-block {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.contacts {
+  text-align: center;
+  margin: 100px 0 0 0;
+}
+
+#need-more-margin {
+  margin-top: 200px;
+}
+
+.main-content {
+  display: flex;
+  margin: 50px;
+}
+
+.line {
+  margin-top: 100px;
+}
+
+.information {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul > img {
+  margin-top: 100px;
+  margin-right: 20px;
+  width: 20px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+}
+
+.code > code {
+  background-color: blanchedalmond;
+  border-radius: 3%;
+  font-family: hack;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  height: 190px;
+  justify-content: space-around;
+  padding: 65px 0 0 0;
+  background-color: blanchedalmond;
+}
+
+.TelegramIcon {
+  width: 150px;
+}
+
+.GitHubIcon {
+  width: 150px;
+}

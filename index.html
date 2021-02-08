@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Curriculum vitae</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="cv">
+	<header class="header">
+		<div class="header-block">
+			<h1>Alexey Pantin</h1>
+			<h4><em>Student</em></h4>
+			</div>
+	</header>
+	<div class="main-content">
+		<aside>
+			<figure class="avatar-block">
+				<img class="avatar" src="img/iam.jpg" alt="My photo">
+				<figcaption><em>“Never tell everything you know…”
+― Roger H. Lincoln</em></figcaption>
+			</figure>
+			<hr class="line">
+			<nav>
+				<h2 class="contacts">Contact me</h2>
+				<ul class="contacts">
+						<li class="contacts" id="need-more-margin"><img src="img/email.svg" alt="email"><br>
+							<a href="mailto:leshapantin@icloud.com"><span>leshapantin@icloud.com</span></a><br></li>
+						<li class="contacts"><img src="img/telegram.svg" alt="telegram"><br>
+						<a href="https://t.me/riffraff1337"><span>@riffraff1337</span></a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main>
+			<section class="information">
+				<ul>
+				<li><h3>About me</h3>
+				<p>20 y.o. I want to become a <em>good</em> it-specialist, I have motivation and I learn quickly. I think I have good soft-skills.</p></li>
+				<li><h3>My skills</h3>
+				<p>HTML + CSS (SCSS), GIT and <em>little know</em> PHP</p></li>
+				<li><h3>My code example</h3>
+				<pre class="code">
+					<code>
+ &lt;?php <br>
+ $a = ReadLine();<br>
+ $q = $a/1000;<br>
+ $w = $a/100%10;<br>
+ $e = $a%100/10;<br>
+ $r = $a%10;<br>
+ $m = array ($q, $w, $e, $r);<br>
+ $z = max($m);<br>
+ $x = min($m);<br>
+ if ($z==$q) {<br>
+     $u=max($w,$e,$r); <br>
+ } elseif ($z==$w) {<br>
+     $u=max($q,$e,$r); <br>
+ } elseif ($z==$e) {<br>
+     $u=max($q,$w,$r); <br>
+ } else {<br>
+     $u=max($q,$w,$e); }<br>
+ if ($x==$q) {<br>
+     $i=min($w,$e,$r); <br>
+ } elseif ($x==$w) {<br>
+     $i=min($q,$e,$r); <br>
+ } elseif ($x==$e) {<br>
+     $i=min($q,$w,$r); <br>
+ } else {<br>
+     $i=min($q,$w,$e); }<br>
+ echo (int) $z.''.(int)$u.''.(int)$i."".(int)$x;<br>
+ ?&gt; <br>
+					</code>
+				</pre></li>
+				<li><h3>Education</h3>
+				<p>
+					I am first course student of Tolyatti Polytechnical College in faculty: “Network and system adminisrtation”. Also I learn online on Stepik and Rolling Scopes School.
+				</p></li>
+				<li><h3>My level English is A1 elementary</h3></li>
+			</ul>
+			</section>
+		</main>
+	</div>
+		<footer class="footer">
+				<a href="https://github.com/LenaGol0vach"><img class="GitHubIcon" src="img/github.svg" alt="GitHub"></a>
+				<h5>2021</h5>
+				<a href="https://rs.school/js/"><img class="TelegramIcon" src="img/rs_school_js.svg" alt="Rollig Scopes"></a>
+		</footer>
+	</div>
+</div>
+</body>
+</html>

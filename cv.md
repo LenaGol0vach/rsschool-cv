@@ -3,7 +3,7 @@
 1. **Alexey Pantin**
 2. Email: *leshapantin@icloud.com*  tg: *@riffraff1337*
 3. 20 y.o. I want to become a good it-specialist, I have *motivation* and *learn quickly*. I think I have good *soft-skills*.
-4. HTML + CSS, *little* PHP.
+4. HTML + CSS (SCSS)
 5. ```
 	<?php
 	$a = ReadLine();

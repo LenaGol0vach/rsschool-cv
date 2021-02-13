@@ -7,7 +7,9 @@ body {
   margin: 0;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: inherit;
   font-family: sans-serif;
 }
@@ -59,10 +61,6 @@ body {
   margin: 100px 0 0 0;
 }
 
-#need-more-margin {
-  margin-top: 200px;
-}
-
 .main-content {
   display: flex;
   margin: 50px;
@@ -80,10 +78,18 @@ li {
   list-style-type: none;
 }
 
+ul > .contacts {
+  margin-left: -35px;
+}
+
 ul > img {
   margin-top: 100px;
   margin-right: 20px;
   width: 20px;
+}
+
+.en-level {
+  margin-top: 100px;
 }
 
 a {
